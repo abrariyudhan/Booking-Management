@@ -178,4 +178,4 @@ One `Service` has many `Bookings`. Migration files are in `backend/prisma/migrat
 - `main` is always in a working state.
 - Features are developed on `feat/<short-description>` branches and merged into `main` via pull requests.
 - Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `chore:`, `docs:`).
-- CI (`.github/workflows/ci.yml`) installs dependencies and runs lint, tests, and builds on every push/PR.
+
