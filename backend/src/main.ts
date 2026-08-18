@@ -20,7 +20,7 @@ async function bootstrap() {
   app.useGlobalFilters(new AllExceptionsFilter());
 
   const port = config.get<number>('PORT') ?? 3001;
-  await app.listen(port);
+  await app.listen(port, '0.0.0.0');
   console.log(`Backend running on http://localhost:${port}/api`);
 }
 void bootstrap();

@@ -11,5 +11,5 @@ import { ServiceModule } from './service/service.module';
     BookingModule,
     ServiceModule,
   ],
-})
+}) 
 export class AppModule {}
